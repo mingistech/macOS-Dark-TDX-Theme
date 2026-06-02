@@ -21,7 +21,12 @@
 
     "content_scripts": [{
         "js": [ "content.js" ],
-        "matches": [ "*://example.com/*" ]
+        "matches": [
+            "https://teamdynamix.umich.edu/TDWorkManagement/*",
+            "https://teamdynamix.umich.edu/TDNext/*"
+        ],
+        "all_frames": true,
+        "run_at": "document_idle"
     }],
 
     "action": {
@@ -29,5 +34,5 @@
         "default_icon": "images/toolbar-icon.svg"
     },
 
-    "permissions": [ ]
+    "permissions": [ "scripting" ]
 }

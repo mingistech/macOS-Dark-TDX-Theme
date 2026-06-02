@@ -4,7 +4,7 @@
         "description": "The display name for the extension."
     },
     "extension_description": {
-        "message": "This is macOS Dark TDX Theme. You should tell us what your extension does here.",
+        "message": "Applies the No More Purple Dodger Blue feed-link styling to TeamDynamix ticketing feeds.",
         "description": "Description of what the extension does."
     }
 }
